@@ -1,5 +1,5 @@
 # LifecycleModel
-[ ![Bintray](https://img.shields.io/badge/bintray-v1.0.0-brightgreen.svg) ](https://bintray.com/jessyancoding/maven/lifecyclemodel/1.0.0/link)
+[ ![Bintray](https://img.shields.io/badge/bintray-v1.0.1-brightgreen.svg) ](https://bintray.com/jessyancoding/maven/lifecyclemodel/1.0.1/link)
 [ ![Build Status](https://travis-ci.org/JessYanCoding/LifecycleModel.svg?branch=master) ](https://travis-ci.org/JessYanCoding/LifecycleModel)
 [ ![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat-square) ](https://developer.android.com/about/versions/android-4.0.html)
 [ ![License](http://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square) ](http://www.apache.org/licenses/LICENSE-2.0)
@@ -10,11 +10,11 @@
 **LifecycleModel** 基于 Google 在 2017 年 I/O 大会上发布的 Android 架构组件中的 [**ViewModel**](https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html), 可以帮助 Activity 和 Fragment 储存和管理一些与 UI 相关以及他们必需的数据, 避免数据在屏幕旋转或配置更改时发生的数据丢失, 还可以帮助开发者轻松实现 Fragment 与 Fragment 之间, Activity 与 Fragment 之间的通讯以及共享数据, 因为看到 Google 让 MVVM 模式中的 ViewModel 具有了这些功能, 所以我也想让 MVP 模式中的 Presenter, 乃至其他更多的模块都具有这些功能, 所以 **LifecycleModel** 诞生了 
 
 ## Lifecycle
-![lifecycle](art/Lifecyclemodel-lifecycle.jpg)
+![lifecycle](https://raw.githubusercontent.com/JessYanCoding/LifecycleModel/master/art/Lifecyclemodel-lifecycle.jpg)
 
 ## Download
 ``` gradle
- compile 'me.jessyan:lifecyclemodel:1.0.0'
+ compile 'me.jessyan:lifecyclemodel:1.0.1'
 ```
 
 ## Usage
