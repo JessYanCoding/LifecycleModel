@@ -24,7 +24,7 @@ import android.support.v4.app.Fragment;
  * 储存存和管理一些与 UI 相关以及他们必需的数据, 并且这些数据在屏幕旋转或配置更改引起的 {@link Activity} 重建的情况下也会被保留, 直到最后被 finish
  * 但是 {@link LifecycleModel} 的实现类切勿直接引用 {@link Activity} 和 {@link Fragment} 以及他们里面 UI 元素
  * <p>
- * 他还可以让开发者能够在绑定在同一个 {@link Activity} 之下的多个不同的 {@link Fragment} 之间共享数据以及通讯
+ * 他还可以让开发者能够在绑定在同一个 {@link Activity} 之下的多个不同的 {@link Fragment} 之间通讯以及共享数据 (Activity 与 Fragmnet 之间的通讯以及共享数据也可以)
  * 使用这种方式进行通讯, {@link Fragment} 之间不存在任何耦合关系
  * <p>
  * {@link LifecycleModel} 可以用来存储以及管理数据, 也可以作为 MVP 模式中的 Presenter (只要实现 {@link LifecycleModel} 即可)
