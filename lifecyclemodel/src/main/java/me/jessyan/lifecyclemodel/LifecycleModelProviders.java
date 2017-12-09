@@ -75,7 +75,7 @@ import android.support.v4.app.FragmentActivity;
  * </pre>
  *
  * @see <a href="https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html">
- * 功能和 Android Architecture 中的 ViewModel 一致, 但放开了权限不仅可以存储 ViewModel, 还可以存储任意自定义对象</a>
+ * 功能和 Android Architecture 中的 ViewModel 一致, 但放开了权限不仅可以存储 ViewModel, 还可以存储任意自定义对象 (也可以试试存储 Presenter 哦!)</a>
  * <p>
  * Created by JessYan on 21/11/2017 16:57
  * <a href="mailto:jess.yan.effort@gmail.com">Contact me</a>

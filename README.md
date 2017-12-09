@@ -4,7 +4,7 @@
 [ ![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat-square) ](https://developer.android.com/about/versions/android-4.0.html)
 [ ![License](http://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square) ](http://www.apache.org/licenses/LICENSE-2.0)
 
-## The LifecycleModel class is designed to store and manage UI-related data in a lifecycle conscious way, The LifecycleModel class allows data to survive configuration changes such as screen rotations,  It also handles the communication of the Activity / Fragment with the rest of the application
+## The LifecycleModel class is designed to store and manage UI-related data in a lifecycle conscious way, the LifecycleModel class allows data to survive configuration changes such as screen rotations,  it also handles the communication of the Activity / Fragment with the rest of the application, base on [ViewModel](https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html)
 
 ## Download
 ``` gradle
@@ -19,6 +19,10 @@
  
          public UserLifecycleModel(int id) {
              this.id = id;
+         }
+         
+         void doAction() {
+         
          }
  
          @Override
