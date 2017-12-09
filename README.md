@@ -44,6 +44,44 @@
  LifecycleModelProviders.of(activity/fragment).remove(UserLifecycleModel.class.getName());
 ```
 
+### Communication of the Activity / Fragment
+```java
+ public class UserLifecycleModel implements LifecycleModel {
+     private Subject<String, String> mSubject = PublishSubject.create();
+
+     public void doAction(String s) {
+         mSubject.onNext(s);
+     }
+
+     public void addAction(Action1<String> action) {
+         mSubject.subscribe(action);
+     }
+ }
+ 
+ public class AFragment extends Fragment {
+     @Override
+     public void onCreate(@Nullable Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         UserLifecycleModel lifecycleModel = LifecycleModelProviders.of(getActivity()).get(UserLifecycleModel.class.getName());
+         lifecycleModel.addAction(new Action1<String>() {
+             @Override
+             public void call(String s) {
+                 // Update the UI.
+             }
+         });
+     }
+ }
+ 
+ public class BFragment extends Fragment {
+     @Override
+     public void onStart() {
+         super.onStart();
+         UserLifecycleModel lifecycleModel = LifecycleModelProviders.of(getActivity()).get(UserLifecycleModel.class.getName());
+         lifecycleModel.doAction("JessYan");
+     }
+ }
+```
+
 
 ## About Me
 * **Email**: <jess.yan.effort@gmail.com>
