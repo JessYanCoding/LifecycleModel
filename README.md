@@ -1,6 +1,7 @@
 # LifecycleModel
 [ ![Bintray](https://img.shields.io/badge/bintray-v1.0.1-brightgreen.svg) ](https://bintray.com/jessyancoding/maven/lifecyclemodel/1.0.1/link)
 [ ![Build Status](https://travis-ci.org/JessYanCoding/LifecycleModel.svg?branch=master) ](https://travis-ci.org/JessYanCoding/LifecycleModel)
+[ ![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LifecycleModel-brightgreen.svg?style=flat) ](https://android-arsenal.com/details/1/6545)
 [ ![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat-square) ](https://developer.android.com/about/versions/android-4.0.html)
 [ ![License](http://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square) ](http://www.apache.org/licenses/LICENSE-2.0)
 
