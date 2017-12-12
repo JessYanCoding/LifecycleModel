@@ -8,7 +8,7 @@
 ## The LifecycleModel class is designed to store and manage UI-related data in a lifecycle conscious way, the LifecycleModel class allows data to survive configuration changes such as screen rotations,  it also handles the communication of the Activity / Fragment with the rest of the application, base on [ViewModel](https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html)
 
 ## Introduction
-**LifecycleModel** 基于 Google 在 2017 年 I/O 大会上发布的 Android 架构组件中的 [**ViewModel**](https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html), 可以帮助 Activity 和 Fragment 储存和管理一些与 UI 相关以及他们必需的数据, 避免数据在屏幕旋转或配置更改时发生的数据丢失, 还可以帮助开发者轻松实现 Fragment 与 Fragment 之间, Activity 与 Fragment 之间的通讯以及共享数据, 因为看到 Google 让 MVVM 模式中的 ViewModel 具有了这些功能, 所以我也想让 MVP 模式中的 Presenter, 乃至其他更多的模块都具有这些功能, 所以 **LifecycleModel** 诞生了 
+**LifecycleModel** 基于 Google 在 2017 年 I/O 大会上发布的 Android 架构组件中的 [**ViewModel**](https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html), 可以帮助 **Activity** 和 **Fragment** 储存和管理一些与 UI 相关以及他们必需的数据, 避免数据在屏幕旋转或配置更改时发生的数据丢失, 还可以帮助开发者轻易实现 **Fragment** 与 **Fragment** 之间, **Activity** 与 **Fragment** 之间的通讯以及共享数据, 因为我看到 Google 让 **MVVM** 框架中的 **ViewModel** 具有了这些功能, 所以我也想让 **MVP** 框架中的 **Presenter**, 乃至其他更多的模块都具有这些功能, 所以 **LifecycleModel** 诞生了 
 
 ## Lifecycle
 ![lifecycle](https://raw.githubusercontent.com/JessYanCoding/LifecycleModel/master/art/Lifecyclemodel-lifecycle.jpg)
