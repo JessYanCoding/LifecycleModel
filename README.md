@@ -10,6 +10,8 @@
 ## Introduction
 **LifecycleModel** 基于 Google 在 2017 年 I/O 大会上发布的 Android 架构组件中的 [**ViewModel**](https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html), 可以帮助 **Activity** 和 **Fragment** 储存和管理一些与 UI 相关以及他们必需的数据, 避免数据在屏幕旋转或配置更改时发生的数据丢失, 还可以帮助开发者轻易实现 **Fragment** 与 **Fragment** 之间, **Activity** 与 **Fragment** 之间的通讯以及共享数据, 因为我看到 Google 让 **MVVM** 框架中的 **ViewModel** 具有了这些功能, 所以我也想让 **MVP** 框架中的 **Presenter**, 乃至其他更多的模块都具有这些功能, 所以 **LifecycleModel** 诞生了 
 
+> [**框架的分析和思路**](https://juejin.im/post/5a31f6b951882503eb4b4b21)
+
 ## Lifecycle
 ![lifecycle](https://raw.githubusercontent.com/JessYanCoding/LifecycleModel/master/art/Lifecyclemodel-lifecycle.jpg)
 
