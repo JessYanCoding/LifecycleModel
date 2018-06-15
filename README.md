@@ -19,7 +19,7 @@
 
 ## Download
 ``` gradle
- compile 'me.jessyan:lifecyclemodel:1.0.1'
+ implementation 'me.jessyan:lifecyclemodel:1.0.1'
 ```
 
 ## Usage
